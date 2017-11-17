@@ -11,6 +11,7 @@ function Get-CurrentModulePath () {
 function Invoke-WebPI () {
     $CurrentModulePath = Get-CurrentModulePath
     $arguments = $args -join ' '
+    $CurrentModulePath = $CurrentModulePath.Replace(" ", "^ ")
     cmd /c "$CurrentModulePath\webpi\WebpiCmd.exe $arguments"
 }
 
