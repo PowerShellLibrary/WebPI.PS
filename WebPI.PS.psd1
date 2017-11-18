@@ -4,7 +4,7 @@
     RootModule   = 'WebPI.PS.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '1.0.1'
+    ModuleVersion     = '1.1.0'
 
     # ID used to uniquely identify this module
     GUID              = 'add2ca98-860b-4313-9ad1-9ef90884e6ca'
