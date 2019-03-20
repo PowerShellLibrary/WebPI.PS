@@ -4,7 +4,7 @@
     RootModule   = 'WebPI.PS.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '1.1.0'
+    ModuleVersion     = '1.1.1'
 
     # ID used to uniquely identify this module
     GUID              = 'add2ca98-860b-4313-9ad1-9ef90884e6ca'
@@ -44,7 +44,7 @@
             Tags              = @('ps', 'power-shell', 'webpi', 'microsoft-web-platform')
 
             # A URL to the license for this module.
-            LicenseUri        = 'https://www.microsoft.com/web/webpi/eula/webpi_45_en.htm'
+            LicenseUri        = 'https://go.microsoft.com/fwlink/?LinkID=145508'
 
             # A URL to the main website for this project.
             ProjectUri        = 'https://github.com/PowerShellLibrary/WebPI.PS'
