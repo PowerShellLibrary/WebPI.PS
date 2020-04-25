@@ -22,8 +22,10 @@ PS> Install-Module -Name WebPI.PS
 # Usage
 
 ```powershell
-PS> Import-Module WebPI.PS
-PS> Invoke-WebPI  /Install /Products:UrlRewrite2
+Import-Module WebPI.PS
+Invoke-WebPI /List /ListOption:Installed
+Invoke-WebPI /Install /Products:UrlRewrite2
+Invoke-WebPI /Install /Products:UrlRewrite2, WDeploy36, DACFX, SQLDOM
 ```
 
 **Limitations**
